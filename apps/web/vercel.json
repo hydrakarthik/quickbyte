@@ -1,0 +1,4 @@
+{
+  "framework": "vite",
+  "installCommand": "npm install --include=dev"
+}
