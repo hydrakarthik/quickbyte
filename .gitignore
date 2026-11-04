@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Test coverage
+coverage/
+
+# Logs
+*.log
+
+# Environment files (secrets). Only the example file is committed.
+.env
+.env.*
+!.env.example

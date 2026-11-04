@@ -1,0 +1,552 @@
+{
+  "pbtResults": {
+    "3.2 Write tests for env validation in `apps/api/src/config/env.test.ts`": {
+      "status": "passed",
+      "lastRunTimestamp": 1793269738239
+    },
+    "4.2 Write tests for the logger in `apps/api/src/lib/logger.test.ts`": {
+      "status": "passed",
+      "lastRunTimestamp": 1793269744961
+    },
+    "7.2 Write tests for the connection manager in `apps/api/src/db/mongo.test.ts`": {
+      "status": "passed",
+      "lastRunTimestamp": 1793269846876
+    },
+    "5.2 Write tests for error handling in `apps/api/src/http/middleware/error-handler.test.ts`": {
+      "status": "passed",
+      "lastRunTimestamp": 1793269874807
+    },
+    "6.2 Write tests for validation in `apps/api/src/http/middleware/validate.test.ts`": {
+      "status": "passed",
+      "lastRunTimestamp": 1793270167982
+    },
+    "8.5 Write integration tests for the app in `apps/api/src/app.test.ts`": {
+      "status": "passed",
+      "lastRunTimestamp": 1793270392190
+    }
+  },
+  "executionHistory": {
+    "1.1 Create root workspace files and initialize git": [
+      {
+        "executionId": "c1df533b-100e-43ca-b37c-58b732e2f07d",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793266721821
+      },
+      {
+        "executionId": "c1df533b-100e-43ca-b37c-58b732e2f07d",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793266742691
+      },
+      {
+        "executionId": "95e750ac-b92d-417f-9e43-bae4d7e041a2",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793267677080
+      },
+      {
+        "executionId": "95e750ac-b92d-417f-9e43-bae4d7e041a2",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793267864498
+      }
+    ],
+    "2.1 Create `apps/api` package, TypeScript configs, and Vitest config": [
+      {
+        "executionId": "c1df533b-100e-43ca-b37c-58b732e2f07d",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793266723797
+      },
+      {
+        "executionId": "95e750ac-b92d-417f-9e43-bae4d7e041a2",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793267872028
+      },
+      {
+        "executionId": "95e750ac-b92d-417f-9e43-bae4d7e041a2",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793268180083
+      }
+    ],
+    "3.1 Implement `apps/api/src/config/env.ts` and `.env.example`": [
+      {
+        "executionId": "c1df533b-100e-43ca-b37c-58b732e2f07d",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793266726193
+      },
+      {
+        "executionId": "95e750ac-b92d-417f-9e43-bae4d7e041a2",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793268580797
+      },
+      {
+        "executionId": "95e750ac-b92d-417f-9e43-bae4d7e041a2",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793268702287
+      }
+    ],
+    "3.2 Write tests for env validation in `apps/api/src/config/env.test.ts`": [
+      {
+        "executionId": "c1df533b-100e-43ca-b37c-58b732e2f07d",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793266726371
+      },
+      {
+        "executionId": "95e750ac-b92d-417f-9e43-bae4d7e041a2",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793268703622
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793268756642
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793269640023
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793269897128
+      },
+      {
+        "executionId": "a31ce6ee-2bed-40d6-b1cd-f499cb9802f7",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793270860799
+      }
+    ],
+    "4.1 Implement `apps/api/src/lib/logger.ts` and `apps/api/src/http/middleware/request-logger.ts`": [
+      {
+        "executionId": "c1df533b-100e-43ca-b37c-58b732e2f07d",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793266726525
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793268756774
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793268777943
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793269630906
+      }
+    ],
+    "4.2 Write tests for the logger in `apps/api/src/lib/logger.test.ts`": [
+      {
+        "executionId": "c1df533b-100e-43ca-b37c-58b732e2f07d",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793266726668
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793268756894
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793269641208
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793269898013
+      }
+    ],
+    "5.1 Implement `apps/api/src/lib/app-error.ts`, `apps/api/src/http/middleware/not-found.ts`, and `apps/api/src/http/middleware/error-handler.ts`": [
+      {
+        "executionId": "c1df533b-100e-43ca-b37c-58b732e2f07d",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793266726797
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793268757093
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793268778935
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793269632113
+      }
+    ],
+    "5.2 Write tests for error handling in `apps/api/src/http/middleware/error-handler.test.ts`": [
+      {
+        "executionId": "c1df533b-100e-43ca-b37c-58b732e2f07d",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793266726940
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793268757245
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793269642079
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793269898809
+      }
+    ],
+    "6.1 Implement `apps/api/src/http/middleware/validate.ts`": [
+      {
+        "executionId": "c1df533b-100e-43ca-b37c-58b732e2f07d",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793266727076
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793268757336
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793269643200
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793269899988
+      }
+    ],
+    "6.2 Write tests for validation in `apps/api/src/http/middleware/validate.test.ts`": [
+      {
+        "executionId": "c1df533b-100e-43ca-b37c-58b732e2f07d",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793266727222
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793268757441
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793270041208
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793270283309
+      }
+    ],
+    "7.1 Implement `apps/api/src/db/mongo.ts`": [
+      {
+        "executionId": "c1df533b-100e-43ca-b37c-58b732e2f07d",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793266727353
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793268757553
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793268779341
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793269633180
+      }
+    ],
+    "7.2 Write tests for the connection manager in `apps/api/src/db/mongo.test.ts`": [
+      {
+        "executionId": "c1df533b-100e-43ca-b37c-58b732e2f07d",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793266727488
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793268757666
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793269644021
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793269900859
+      }
+    ],
+    "8.1 Implement `apps/api/src/http/routes/health.ts` and `apps/api/src/app.ts`": [
+      {
+        "executionId": "c1df533b-100e-43ca-b37c-58b732e2f07d",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793266727628
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793268757770
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793269914004
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793270033687
+      }
+    ],
+    "8.2 Implement `apps/api/src/lib/shutdown.ts`": [
+      {
+        "executionId": "c1df533b-100e-43ca-b37c-58b732e2f07d",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793266727767
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793268757880
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793269914539
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793270034330
+      }
+    ],
+    "8.3 Implement `apps/api/src/server.ts` bootstrap": [
+      {
+        "executionId": "c1df533b-100e-43ca-b37c-58b732e2f07d",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793266727906
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793268757979
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793270042311
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793270284334
+      }
+    ],
+    "8.4 Write unit tests for shutdown in `apps/api/src/lib/shutdown.test.ts`": [
+      {
+        "executionId": "c1df533b-100e-43ca-b37c-58b732e2f07d",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793266728051
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793268758078
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793270043122
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793270285019
+      }
+    ],
+    "8.5 Write integration tests for the app in `apps/api/src/app.test.ts`": [
+      {
+        "executionId": "c1df533b-100e-43ca-b37c-58b732e2f07d",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793266728203
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793268758193
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793270306335
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793270530488
+      }
+    ],
+    "9.1 Create `apps/web` Vite React TypeScript shell": [
+      {
+        "executionId": "c1df533b-100e-43ca-b37c-58b732e2f07d",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793266728337
+      },
+      {
+        "executionId": "95e750ac-b92d-417f-9e43-bae4d7e041a2",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793268180467
+      },
+      {
+        "executionId": "95e750ac-b92d-417f-9e43-bae4d7e041a2",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793268498371
+      }
+    ],
+    "9.2 Write the web smoke test in `apps/web/src/App.test.tsx`": [
+      {
+        "executionId": "c1df533b-100e-43ca-b37c-58b732e2f07d",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793266728568
+      },
+      {
+        "executionId": "95e750ac-b92d-417f-9e43-bae4d7e041a2",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793268498197
+      },
+      {
+        "executionId": "95e750ac-b92d-417f-9e43-bae4d7e041a2",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793268580384
+      }
+    ],
+    "10.1 Write `README.md` at the repository root": [
+      {
+        "executionId": "c1df533b-100e-43ca-b37c-58b732e2f07d",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793266728741
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793268758305
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793270307023
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793270531121
+      }
+    ],
+    "11. Final checkpoint - Ensure all quality gates pass": [
+      {
+        "executionId": "c1df533b-100e-43ca-b37c-58b732e2f07d",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793266728894
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793268758417
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793270538282
+      },
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793270760181
+      }
+    ],
+    "1. Set up the root workspace": [
+      {
+        "executionId": "95e750ac-b92d-417f-9e43-bae4d7e041a2",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793267864838
+      }
+    ],
+    "2. Scaffold the API package": [
+      {
+        "executionId": "95e750ac-b92d-417f-9e43-bae4d7e041a2",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793268180318
+      }
+    ],
+    "9. Scaffold the web package": [
+      {
+        "executionId": "95e750ac-b92d-417f-9e43-bae4d7e041a2",
+        "chatSessionId": "sess_f86ac443-d3e6-44b1-8ae3-3b84794c77f9",
+        "timestamp": 1793268580521
+      }
+    ],
+    "3. Implement environment validation": [
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793269897254
+      }
+    ],
+    "4. Implement the logger and request logging": [
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793269898140
+      }
+    ],
+    "5. Implement AppError, the 404 handler, and the centralized error handler": [
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793269898917
+      }
+    ],
+    "7. Implement the MongoDB connection manager": [
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793269900968
+      }
+    ],
+    "6. Implement the request validation middleware": [
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793270283498
+      }
+    ],
+    "8. Implement the app factory, health and readiness routes, and server bootstrap": [
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793270530702
+      }
+    ],
+    "10. Document setup": [
+      {
+        "executionId": "93601d43-bb4d-494d-ae66-b8784ac8b87e",
+        "chatSessionId": "sess_dffc56a1-d630-4b7c-a244-39a293fe3aab",
+        "timestamp": 1793270531244
+      }
+    ]
+  }
+}
